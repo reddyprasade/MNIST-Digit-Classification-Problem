@@ -1,11 +1,11 @@
 # MNIST-Digit-Classification-Problem
   The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
-Four files are available on this site:
+Four files are [available on this site:](http://yann.lecun.com/exdb/mnist/)
 
-train-images-idx3-ubyte.gz:  [training set images (9912422 bytes)](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz)
-train-labels-idx1-ubyte.gz:  [training set labels (28881 bytes)](http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz)
-t10k-images-idx3-ubyte.gz:   [test set images (1648877 bytes)](http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz)
-t10k-labels-idx1-ubyte.gz:   [test set labels (4542 bytes)](http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz)
+1. train-images-idx3-ubyte.gz:  [training set images (9912422 bytes)](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz)
+2. train-labels-idx1-ubyte.gz:  [training set labels (28881 bytes)](http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz)
+3. t10k-images-idx3-ubyte.gz:   [test set images (1648877 bytes)](http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz)
+4. t10k-labels-idx1-ubyte.gz:   [test set labels (4542 bytes)](http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz)
 
 please note that your browser may uncompress these files without telling you. If the files you downloaded have a larger size than the above, they have been uncompressed by your browser. Simply rename them to remove the .gz extension. Some people have asked me "my application can't open your image files". These files are not in any standard image format. You have to write your own (very simple) program to read them. The file format is described at the bottom of this page.
 
